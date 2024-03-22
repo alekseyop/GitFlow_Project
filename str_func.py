@@ -1,6 +1,13 @@
 def str_upper(str):
-     """Плохая стринга"""
-     if isinstance(str, str):
+    """Возвращает строку в верхнем регистре"""
+    if isinstance(str, str):
         return str.upper()
-     else:
+    else:
+        return "Не строка"wqe dw:
+
+def str_title(str):
+    """Возвращает строку с заглавными первыми буквами"""
+    if isinstance(str, str):
+        return str.title()
+    else:
         return "Не строка"
