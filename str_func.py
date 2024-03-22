@@ -3,8 +3,7 @@ def str_upper(str):
     if isinstance(str, str):
         return str.upper()
     else:
-        return "Не строка"
-
+        return "Не строка"wqe dw:
 
 def str_title(str):
     """Возвращает строку с заглавными первыми буквами"""
